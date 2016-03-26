@@ -10,7 +10,7 @@ package registerquiz;
  * @author Tram
  */
 public class Account {
-    private String id;
+    private String UserId;
     private String pass;
     private String type;
     private String gender;
@@ -18,7 +18,7 @@ public class Account {
     //register
     public Account(String i, String p, String g,String t, String o)
     {
-        id = i;
+        UserId = i;
         pass = p;
         gender = g;
         type = t;
@@ -35,7 +35,7 @@ public class Account {
     }
 
     public void setId(String id) {
-        this.id = id;
+        this.UserId = id;
     }
 
     public void setPass(String pass) {
@@ -51,7 +51,7 @@ public class Account {
     }
 
     public String getId() {
-        return id;
+        return UserId;
     }
 
     public String getPass() {
